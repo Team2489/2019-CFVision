@@ -22,5 +22,6 @@
         "fstream": "cpp",
         "functional": "cpp",
         "queue": "cpp"
-    }
+    },
+    "python.linting.pylintEnabled": true
 }
