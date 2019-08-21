@@ -16,7 +16,7 @@ for d in distances:
 
 # plt.plot(distances, est_dist, c='r')
 # plt.plot(distances, distances, c='g')
-plt.scatter(distances, err)
+plt.plot(distances, err)
 
 plt.show()
 

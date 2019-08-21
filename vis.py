@@ -90,8 +90,8 @@ def process(img, DEBUG=False):
     return tx, ty
 
 
-
-# for i in (box1, box2):
-#     cv2.drawContours(img, [i], 0, (0,0,255), 2)
-# cv2.imshow("Image", img)
-# cv2.waitKey(0)
+def drawBoxes(img, box1, box2):
+    for i in (box1, box2):
+        cv2.drawContours(img, [i], 0, (0,0,255), 2)
+    cv2.imshow("Image", img)
+    cv2.waitKey(0)
